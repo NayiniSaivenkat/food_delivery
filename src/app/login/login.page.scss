@@ -1,0 +1,111 @@
+ion-content{
+    --background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.background-pic{
+          height: 100vh;
+          width: 100%;
+          background: url("../../assets/backgroundimg2.png.jpg");
+          background-position:100%;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+
+}
+ion-card{
+    margin-top: 130px;
+    background:transparent;
+    box-shadow: none;
+    text-align: center;
+    ion-card-title{
+        color: #fff;
+        font-size: 40px;
+    }
+    ion-card-subtitle{
+        color: #bbb;
+        font-size: 15px;
+        font-weight: 400;
+        a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            font-size: 15;
+        }
+    }
+    ion-card-content{
+        margin-top: 30px;
+        ion-item{
+            --ion-itom-background:transparent;
+            --border-width:0;
+            --inner-border-width:0;
+            margin-bottom: 15px;
+            margin-right: 10px;
+            margin-left: 20px;
+            border-radius: 10px;
+            ion-input{
+                width: 247px;
+                height: 42px;
+                border-radius: 40px;
+                border:1px solid #fff;
+                font-size: 14px;
+                font-weight: 400;
+                --padding-start:30px
+                
+
+            }
+        }
+        a{
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 13px;
+            color:#fff;
+            margin-bottom: 60px;
+            text-align: center;
+
+        }
+    }
+.bottom-section{
+        margin-top: 50px;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       ion-botton{
+           margin-left: 70px;
+           text-align: center;
+           height: 60px;
+           width: 175px;
+           font-size: 20px;
+           text-transform: none;
+           font-weight: 300;
+           background: black;
+           border-radius: 10px;
+           color: #fff;
+           padding: 10px;
+           
+           
+           
+            
+               
+               
+       }
+        span{
+            margin-top: 20px;
+            color: #fff;
+
+            a{
+                
+                text-decoration: none;
+                font-weight: bold;
+                color: black;
+                font-size: 15;
+                
+
+            }
+        }
+        
+    }
+}
+
+

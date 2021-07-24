@@ -1,0 +1,52 @@
+ion-content{
+    --ion-background-color:#fff;
+}
+
+ .background-container{
+     height:100vh;
+     width:100%;
+     display:flex;
+     background:url('../../assets/background_img1.png.jpg');
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-position: 50%;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ ion-card{
+     text-align: center;
+     background-color: transparent;
+     box-shadow: none;
+     margin-top: 200px;
+     font-style: italic;
+ img{
+     height: 7rem;
+     width: 7.2rem;
+ }
+ ionic-card-title{
+      font-size: 30px;
+      font-weight: 400;
+      color:white;
+      
+      
+ }
+ ion-card-content{
+     margin-top: 100px;
+     ion-botton{
+         height: 60px;
+         width: 180px;
+         --border-radius:60px;
+         background-color: black;
+         border-bottom-left-radius: 0px;
+         color: #fff;
+         font-weight: 1000;
+         text-transform: none;
+         font-style: normal;
+     }
+ }
+ }
+ 
+
+     
+ 

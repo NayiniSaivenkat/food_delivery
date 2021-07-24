@@ -1,0 +1,31 @@
+<ion-header>
+  
+</ion-header>
+
+<ion-content>
+ <div class="background-pic">
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>
+      Welcome!
+    </ion-card-title>
+    <ion-card-subtitle>
+      Time to Shop, Let's <a href="#">Sign In</a>
+    </ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-input [(ngModel)]="user.email" placeholder="Email Adress"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input [(ngModel)]="user.password" placeholder="Password"></ion-input>
+    </ion-item>
+    <a href="http://localhost:8100/forgotpasword">Forgot Password</a>
+    <div class="bottom-section">
+      <ion-botton (click)="navigateToLoginPage()">Sign In</ion-botton>
+      <span>Don't have an account?<a href="http://localhost:8100/signup">Sign Up</a></span>
+    </div>
+  </ion-card-content>
+</ion-card>
+</div>
+</ion-content>
